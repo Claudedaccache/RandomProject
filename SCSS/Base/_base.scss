@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+p,
+h1,
+h3,
+h2,
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../Images/sunset.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contentContainer {
+  width: 100%;
+  height: 30%;
+  /* background-color: green; */
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1rem;
+}
+
+.cardCategories {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.categoryItem {
+  position: relative;
+  width: 6rem;
+  height: 5rem;
+  background-color: rgb(252, 161, 161);
+  margin: 1rem 0.5rem;
+  border-radius: 50%;
+}
+
+.categoryItemText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 0.9rem;
+}
+
+.fas {
+  color: red;
+  font-size: 1.1rem;
+}
+
+.clickMeButton {
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 50%;
+  background: red;
+  border-radius: 25%;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 4px 4px 6px black;
+  
+}
+
+
+.Message{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+
+}
+.cardsMessage{
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+
+}
+

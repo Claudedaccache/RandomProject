@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h3,
+h2,
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../Images/sunset.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contentContainer {
+  width: 100%;
+  height: 30%;
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 8rem;
+  /* opacity: 0.8; */
+}
+
+.cardCategories {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.categoryItem {
+  position: relative;
+  width: 9rem;
+  height: 6rem;
+  margin: 1rem 0.5rem;
+  border-radius: 50%;
+}
+
+.Reasons {
+  background-color: rgb(182, 50, 50, 0.5);
+}
+.Remember {
+  background-color: rgb(123, 123, 204, 0.5);
+}
+
+.TodoList {
+  background-color: rgb(163, 66, 228, 0.5);
+}
+
+.categoryItemText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.fas {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.clickMeButton {
+  position: relative;
+  bottom: 0;
+  left: 25%;
+  transform: translate(-25%, 0);
+  width: 50%;
+  height: 3rem;
+  background: rgb(248, 0, 74);
+  border-radius: 25%;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  box-shadow: 4px 4px 6px black;
+  transform: scale(1);
+}
+
+.clickMeButton:hover {
+  transform: scale(1.1);
+}
+
+.Message {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 400px;
+}
+.cardsMessage {
+  color: white;
+  padding: 0 1.5rem 2rem 1.5rem;
+  font-size: 1.6rem;
+}
