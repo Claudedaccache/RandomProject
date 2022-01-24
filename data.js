@@ -29,7 +29,7 @@ export default {
     "You are such a good cook azdee popcorn ehh :p .",
     "I love how we form a great team.",
     "you always reply to my messages and jokes on the rcg group",
-    "your favorite hobby is to sleep",
+    "your favorite hobby is 'sleeping'",
   ],
 
   Remember: [
@@ -54,7 +54,6 @@ export default {
     "you made a cake on my birthday, you were in bask",
     "we light up the candle together in harissa",
     "you laughed at me feets :p",
-    
   ],
 
   HaveToDo: [
@@ -82,5 +81,7 @@ export default {
     "choose the book go to page 46 , line 8, 5th word what is it?",
     "wear different shoes pair and walk for 1 hour at home",
     "put a facial mask and scare me :p",
+    "Tell me something you like in general",
+    "Tell me something you don't like in general",
   ],
 };
