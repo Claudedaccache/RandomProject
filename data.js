@@ -30,10 +30,11 @@ export default {
     "I love how we form a great team.",
     "you always reply to my messages and jokes on the rcg group",
     "your favorite hobby is 'sleeping'",
+    "cz you support me and understand my good and bad actions"
   ],
 
   Remember: [
-    "our first date",
+    // "our first date",
     "W.M when we saw him near your village",
     "asking for tea after eating chocolate",
     "dancing hand",
@@ -47,13 +48,13 @@ export default {
     "you drove my car when we were in your village",
     "remember when you were drinving and i was cutting the sun's light from your face",
     "7 nov 2021",
-    "beb2a be7kik bwad3ak",
+    // "beb2a be7kik bwad3ak",
     "I love your sense of family and your dedication to the ones you love.",
     "you sent me a oic of you 3am tono2re koussa :p",
     "we stayed one day at work angry of each other and i sent you a note ",
     "you made a cake on my birthday, you were in bask",
     "we light up the candle together in harissa",
-    "you laughed at me feets :p",
+    // "you laughed at me feets :p",
   ],
 
   HaveToDo: [
