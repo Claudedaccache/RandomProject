@@ -31,7 +31,7 @@ export default {
     "you always reply to my messages and jokes on the rcg group",
     "your favorite hobby is 'sleeping'",
     "cz you support me and understand my good and bad actions"
-    ""
+    
   ],
 
   Remember: [
